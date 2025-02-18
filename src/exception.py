@@ -1,7 +1,7 @@
 # this will be common for all the scripts in this code in every try catch block
 
 import sys 
-import logging
+from src.logger import logging # this is to use the logging function from the logger.py file
 
 def error_message_detail(error, error_detail:sys):
     _,_,exc_tb = error_detail.exc_info()   # we dont need the first two values, we need the third value which is the traceback object

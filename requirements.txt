@@ -1,6 +1,11 @@
 pandas
 numpy
 seaborn
+matplotlib
+scikit-learn
+catboost
+xgboost
 
 
--e .
+
+# -e . # keep this commented out so that the setup is not built every time we run the requirements.txt file
