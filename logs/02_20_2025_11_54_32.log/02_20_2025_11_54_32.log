@@ -1,0 +1,12 @@
+[ 2025-02-20 11:54:34,000 ] 31 root - INFO - Entered the data ingestion method or component
+[ 2025-02-20 11:54:34,001 ] 34 root - INFO - Read the dataset as dataframe
+[ 2025-02-20 11:54:34,007 ] 39 root - INFO - Train test split initiated
+[ 2025-02-20 11:54:34,007 ] 45 root - INFO - Ingestion of data is completed
+[ 2025-02-20 11:54:34,028 ] 71 root - INFO - Read train and test data completed
+[ 2025-02-20 11:54:34,028 ] 73 root - INFO - Obtaining preprocessing object
+[ 2025-02-20 11:54:34,028 ] 40 root - INFO - Numerical Columns Standardized completed
+[ 2025-02-20 11:54:34,028 ] 50 root - INFO - Categorical Columns encoding completed
+[ 2025-02-20 11:54:34,035 ] 86 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2025-02-20 11:54:34,049 ] 103 root - INFO - Saved preprocessing object.
+[ 2025-02-20 11:54:34,049 ] 33 root - INFO - Splitting training and test input data
+[ 2025-02-20 11:55:27,125 ] 109 root - INFO - Best found model on both training and testing dataset
